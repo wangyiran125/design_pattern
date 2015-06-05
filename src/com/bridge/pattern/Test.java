@@ -1,7 +1,5 @@
 package com.bridge.pattern;
 
-import com.bridge.notpattern.pattern.BlueCircle;
-import com.bridge.notpattern.pattern.RedCircle;
 
 /**
  * Created by wyr on 2015/6/5.
@@ -26,5 +24,10 @@ public class Test {
         redCircle.draw();
         Circle blueCircle = new Circle(new Blue());
         blueCircle.draw();
+
+        Rectangle redRectangle = new Rectangle(new Red());
+        redRectangle.draw();
+        Rectangle blueRectangle = new Rectangle(new Blue());
+        blueRectangle.draw();
     }
 }
