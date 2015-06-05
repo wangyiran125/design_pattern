@@ -6,6 +6,9 @@ import java.util.Map;
 /**
  * Created by wyr on 2015/6/5.
  */
+
+//https://sourcemaking.com/design_patterns/chain_of_responsibility
+//http://java.dzone.com/articles/design-patterns-uncovered-chain-of-responsibility
 public class Test {
     public static void main(String[] args) {
         Map<String, Integer> cashMap = getStringIntegerMap();

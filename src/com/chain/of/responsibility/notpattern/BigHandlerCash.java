@@ -5,6 +5,7 @@ package com.chain.of.responsibility.notpattern;
  */
 public class BigHandlerCash {
     public void handlerRequest(Account account){
+        //couple..
         Integer cashNum = account.getCashNum(CashType.FIFTY);
         if (cashNum != null && cashNum > 0){
             System.out.println("give you onehundred "+cashNum);
